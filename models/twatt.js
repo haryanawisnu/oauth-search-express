@@ -12,12 +12,11 @@ var searching = function(done) {
     'HMAC-SHA1'
   );
   oauth.get(
-    'https://api.twitter.com/1.1/search/tweets.json?q=%23jakarta',
+    'https://api.twitter.com/1.1/search/tweets.json?q=hacktiv8',
     process.env.ACCESS_TOKEN, //test user token
     process.env.ACCESS_TOKEN_SECRET, //test user secret
     function(e, data) {
       if (e) console.error(e);
-      console.log(data);
       done(data);
     });
 }
