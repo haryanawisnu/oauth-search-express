@@ -10,7 +10,7 @@ created : 27 April 2017
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd oauth-search-express
+$ cd twatt-search
 $ npm install
 $ node app
 ```
